@@ -1,0 +1,115 @@
+.oso {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+
+.cabeza {
+    width: 100px;
+    height: 100px;
+    background-color: #ffcc99;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.oreja {
+    width: 25px;
+    height: 50px;
+    background-color: #cc9966;
+    border-radius: 50%;
+    position: absolute;
+
+}
+
+.oreja.izquierda {
+    top: 10px;
+    left: -20px;
+    transform: rotate(-50%);
+}
+
+.oreja.derecha {
+    top: 10px;
+    right: -20px;
+    transform: rotate(-50%);
+}
+
+.ojo {
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.ojo.izquierdo {
+    top: 30px;
+    left: 30px;
+}
+
+.ojo.derecho {
+    top: 30px;
+    right: 30px;
+}
+
+.nariz {
+    width: 10px;
+    height: 10px;
+    background-color: #cc9966;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 45px;
+}
+
+.boca {
+    width: 40px;
+    height: 10px;
+    border-bottom: 2px solid black;
+    position: absolute;
+    top: 55px;
+    left: 30px;
+    border-radius: 50%;
+}
+.cuerpo {
+    width: 150px;
+    height: 150px;
+    background-color: #ffcc99;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.brazo, .pierna {
+    width: 50px;
+    height: 100px;
+    background-color: #ffcc99;
+    position: absolute;
+}
+
+.brazo.izquierdo {
+    top: 120px;
+    left: -20px;
+    transform: rotate(45deg);
+}
+
+.brazo.derecho {
+    top: 120px;
+    right: -20px;
+    transform: rotate(-45deg);
+}
+
+.pierna.izquierda {
+    top: 210px;
+    left: 50px;
+}
+
+.pierna.derecha {
+    top: 210px;
+    right: 50px;
+}
